@@ -1,0 +1,23 @@
+{ 
+  "info": { 
+    "name": "GitHub JSON API Test", 
+    "_postman_id": "1234-5678-9012-3456", 
+    "description": "Test GitHub JSON with Postman", 
+    "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json" 
+  }, 
+  "item": [ 
+    { 
+      "name": "Fetch GitHub JSON", 
+      "request": { 
+        "method": "GET", 
+        "header": [], 
+        "url": { 
+          "raw": "https://garvemodigum.github.io/garvmodigum/data.json", 
+          "protocol": "https", 
+          "host": ["garvemodigum", "github", "io"], 
+          "path": ["garvmodigum", "data.json"] 
+        } 
+      } 
+    } 
+  ] 
+}
